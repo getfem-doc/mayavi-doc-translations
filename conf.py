@@ -20,6 +20,9 @@ execfile_(os.path.join(basedir, 'conf.py'), globals())
 
 locale_dirs = [os.path.join(basedir, '../../../../locale/')]
 
+# To specify names to enable gettext extracting and translation applying for i18n additionally. You can specify below names:
+gettext_additional_targets = ['raw'] 
+
 def setup(app):
     from sphinx.ext.autodoc import cut_lines
     from sphinx.util.docfields import GroupedField
