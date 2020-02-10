@@ -32,7 +32,7 @@ after_success:
 - git config --global user.name "mayavi-auto-update"
 - git add .
 - |
-  git commit -m "[skip ci] by Travis CI (JOB $TRAVIS_JOB_NUMBER)
+  git commit -m ":green_heart: by Travis CI (JOB $TRAVIS_JOB_NUMBER)
   https://travis-ci.com/$TRAVIS_REPO_SLUG/builds/$TRAVIS_BUILD_ID"
 - git remote -v
 - git remote add github git@github.com:getfem-doc/mayavi-doc-translations.git
