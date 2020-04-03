@@ -28,7 +28,7 @@ jobs:
         HTML_URL: ${{ steps.jobs.outputs.html_url }}
       run: |
         git submodule update
-        (cd mayavi; git fetch origin; git checkout patch-7; git reset --hard origin/patch-7; git branch -a)
+        (cd mayavi; git fetch origin; git checkout master; git reset --hard origin/master; git branch -a)
         pip install -U pip setuptools
         pip install -r ./requirements.txt
         sh ./locale/update.sh
