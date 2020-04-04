@@ -51,6 +51,6 @@ jobs:
         git commit --allow-empty -m ":green_heart: $JOB_ID
         $HTML_URL"
         git remote -v
-        git remote add github git@github.com:getfem-doc/mayavi-doc-translations.git
+        git remote add github git@github.com:$ORGANIZATION/$REPO.git
         git push github master
         deactivate
