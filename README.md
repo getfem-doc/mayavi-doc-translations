@@ -1,6 +1,6 @@
 # mayavi-doc.org on the Read The Docs.
 
-[![Build Status](https://travis-ci.com/getfem-doc/mayavi-doc-translations.svg?branch=master)](https://travis-ci.com/getfem-doc/mayavi-doc-translations) [![Documentation Status](https://readthedocs.org/projects/mayavi-ja/badge/?version=latest)](https://mayavi-ja.readthedocs.io/ja/latest/?badge=latest)
+![mayavi-auto-update](https://github.com/getfem-doc/mayavi-doc-translations/workflows/mayavi-auto-update/badge.svg) [![Documentation Status](https://readthedocs.org/projects/mayavi-ja/badge/?version=latest)](https://mayavi-ja.readthedocs.io/ja/latest/?badge=latest)
 
 This is a project to provide mayavi official documentation with multiple versions and multiple languages on Read The Docs site.
 
