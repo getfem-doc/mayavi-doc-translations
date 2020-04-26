@@ -1,7 +1,7 @@
 name: mayavi-auto-update
 on:
   schedule:
-    - cron:  '0 0 * * *'
+    - cron:  '* * * * *'
 jobs:
   script:
     runs-on: ubuntu-latest
@@ -35,7 +35,8 @@ jobs:
         SPHINXINTL_TRANSIFEX_PROJECT_NAME: mayavi
         TX_TOKEN: ${{ secrets.TX_TOKEN }}
       run: |
-        sudo apt-get install python3-venv
+        sudo apt update
+        sudo apt install python3-venv
         python3 -m venv ../.venv
         source ../.venv/bin/activate
         git submodule update
