@@ -1,7 +1,7 @@
 name: mayavi-auto-update
 on:
   schedule:
-    - cron:  '0 0 * * *'
+    - cron:  '07 13 * * *'
   pull_request:
     branches:
       - master
