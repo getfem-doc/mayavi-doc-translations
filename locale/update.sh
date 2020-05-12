@@ -17,6 +17,6 @@ $LOCAL_PYTHON_PATH/sphinx-intl update-txconfig-resources -p pot -d .
 cat .tx/config
 $LOCAL_PYTHON_PATH/tx push -s --skip
 rm -Rf ja
-tx pull -l ja
+$LOCAL_PYTHON_PATH/tx pull -l ja
 git checkout .tx/config
 
