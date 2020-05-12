@@ -1,2 +1,3 @@
 -e ./mayavi
-sphinx-intl[transifex]>=0.9.11
+sphinx-intl
+transifex-client
