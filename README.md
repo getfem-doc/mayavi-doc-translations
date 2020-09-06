@@ -13,11 +13,13 @@ conf.py files for each languages have 'language' and 'locale_dirs' values withou
 
   * https://readthedocs.org/projects/mayavi/  (Master)
   * https://readthedocs.org/projects/mayavi-ja/
+  * https://readthedocs.org/projects/mayavi-zh-cn
 
 * Documentation pages for each languages:
 
   * https://mayavi.readthedocs.io/en/latest/
   * https://mayavi.readthedocs.io/ja/latest/
+  * https://mayavi.readthedocs.io/zh_CN/latest/
 
 ## How to setup a translated documentation project on RTD
 
