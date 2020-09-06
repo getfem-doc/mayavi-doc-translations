@@ -76,12 +76,12 @@ After that, you should commit updated po files.
 2. replace old version `1_7` with `1_8` in:
 
    - release.sh
-   - .travis.yml
+   - .github/workflows/main.yml
 
 3. commit it and push them:
 
    ```
-   git add release.sh .travis.yml
+   git add release.sh .github/workflows/main.yml
    git commit -m "add new version: 1.8"
    git push --tags
    ```
